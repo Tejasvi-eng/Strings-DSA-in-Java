@@ -22,6 +22,6 @@ class Solution {
         Scanner sc= new Scanner(System.in);
         int arr[]={2,5,7,11};
         int target=sc.nextInt();
-        System.out.println(twoSum(arr,target));
+        System.out.println(Arrays.toString(twoSum(arr,target)));
     }
 }
